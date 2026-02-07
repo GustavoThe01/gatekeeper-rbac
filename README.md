@@ -142,14 +142,23 @@ src/
 ## 📚 Observações Importantes
 
 Este projeto não tem foco em backend
+
 O objetivo é demonstrar:
+
 Arquitetura frontend
+
 Autenticação
+
 RBAC
+
 Boas práticas com React e TypeScript
+
 Em produção, recomenda-se:
+
 Backend real
+
 Tokens em cookies HttpOnly
+
 Validações no servidor
 
 ---
