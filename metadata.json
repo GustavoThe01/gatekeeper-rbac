@@ -1,0 +1,5 @@
+{
+  "name": "GateKeeper RBAC System",
+  "description": "A comprehensive authentication and role-based access control (RBAC) system featuring Admin, User, and Viewer profiles with protected routes and persistent sessions.",
+  "requestFramePermissions": []
+}
