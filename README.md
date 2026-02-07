@@ -120,15 +120,37 @@ Toda a lógica de permissões é **centralizada**, evitando condicionais espalha
 ## 📂 Estrutura de Pastas
 
 src/
+
 ├── app/ # Configuração principal e rotas
+
 ├── auth/ # Contexto e serviços de autenticação
+
 ├── pages/ # Telas da aplicação
+
 ├── components/ # Componentes reutilizáveis
+
 ├── hooks/ # Hooks customizados
+
 ├── services/ # Serviços e mock de API
+
 ├── types/ # Tipagens TypeScript
+
 └── utils/ # Utilitários e helpers
 
+---
+
+## 📚 Observações Importantes
+
+Este projeto não tem foco em backend
+O objetivo é demonstrar:
+Arquitetura frontend
+Autenticação
+RBAC
+Boas práticas com React e TypeScript
+Em produção, recomenda-se:
+Backend real
+Tokens em cookies HttpOnly
+Validações no servidor
 
 ---
 
@@ -141,18 +163,3 @@ npm install
 # Executar em ambiente de desenvolvimento
 npm run dev
 
----
-
-## 📚 Observações Importantes
-
-Este projeto não tem foco em backend
-
-O objetivo é demonstrar:
-Arquitetura frontend
-Autenticação
-RBAC
-Boas práticas com React e TypeScript
-Em produção, recomenda-se:
-Backend real
-Tokens em cookies HttpOnly
-Validações no servidor
